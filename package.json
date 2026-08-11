@@ -1,0 +1,54 @@
+{
+  "name": "publora",
+  "displayName": "Publora",
+  "description": "Publish or schedule the selected text to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram.",
+  "version": "1.0.0",
+  "publisher": "publora",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "social media",
+    "linkedin",
+    "scheduling",
+    "publishing",
+    "changelog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/publora/vscode-publora"
+  },
+  "homepage": "https://publora.com",
+  "bugs": {
+    "url": "https://github.com/publora/vscode-publora/issues"
+  },
+  "main": "./extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "publora.sendSelection",
+        "title": "Publora: Send selection"
+      },
+      {
+        "command": "publora.sendFile",
+        "title": "Publora: Send this file"
+      }
+    ],
+    "configuration": {
+      "title": "Publora",
+      "properties": {
+        "publora.apiKey": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "API key from [Settings \u2192 API keys](https://app.publora.com/dashboard/api) in Publora. Starts with `sk_`."
+        }
+      }
+    }
+  }
+}
