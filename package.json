@@ -1,8 +1,8 @@
 {
   "name": "publora",
   "displayName": "Publora",
-  "description": "Publish or schedule the selected text to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram.",
-  "version": "1.0.0",
+  "description": "Publish or schedule the selected text as a social media post through Publora.",
+  "version": "1.0.1",
   "publisher": "publora",
   "license": "MIT",
   "icon": "icon.png",
@@ -14,9 +14,9 @@
   ],
   "keywords": [
     "social media",
-    "linkedin",
     "scheduling",
     "publishing",
+    "posts",
     "changelog"
   ],
   "repository": {
