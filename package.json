@@ -2,7 +2,7 @@
   "name": "publora",
   "displayName": "Publora",
   "description": "Publish or schedule the selected text as a social media post through Publora.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "publora",
   "license": "MIT",
   "icon": "icon.png",
