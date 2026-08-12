@@ -1,6 +1,6 @@
 # Publora for VS Code
 
-Select the text, run one command, and it goes out. This extension sends the selection, or the whole file, to [Publora](https://publora.com) as a scheduled post or a draft.
+Select the text, run one command, and it goes out. This extension sends the selection, or the whole file, to [Publora](https://publora.com?utm_source=vscode&utm_medium=extension) as a scheduled post or a draft.
 
 Ten networks: LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram.
 
@@ -17,9 +17,9 @@ After the command you pick the channels, then choose between a draft and a sched
 
 ## Setup
 
-1. Create a Publora account at [publora.com](https://publora.com). The free plan is 15 posts a month and three connected accounts, no card needed.
+1. Create a Publora account at [publora.com](https://publora.com?utm_source=vscode&utm_medium=extension). The free plan is 15 posts a month and three connected accounts, no card needed.
 2. Connect at least one social account in the Publora dashboard. The extension publishes to accounts connected there; it cannot connect them for you.
-3. Open [Settings → API keys](https://app.publora.com/dashboard/api), press Generate API key.
+3. Open [Settings → API keys](https://app.publora.com/dashboard/api?utm_source=vscode&utm_medium=extension), press Generate API key.
 4. In VS Code, open Settings, search for `publora.apiKey`, and paste it.
 
 ## Things worth knowing

@@ -9,7 +9,7 @@ const https = require('https');
 
 const HOST = 'api.publora.com';
 const BASE_PATH = '/api/v1';
-const KEYS_URL = 'https://app.publora.com/dashboard/api';
+const KEYS_URL = 'https://app.publora.com/dashboard/api?utm_source=vscode&utm_medium=extension';
 
 /* Networks that reject a post without an image or video. */
 const MEDIA_REQUIRED = ['instagram', 'tiktok', 'youtube'];
@@ -183,7 +183,7 @@ async function send(text) {
 
     const action = await vscode.window.showInformationMessage(message, 'Open dashboard');
     if (action === 'Open dashboard') {
-      vscode.env.openExternal(vscode.Uri.parse('https://app.publora.com'));
+      vscode.env.openExternal(vscode.Uri.parse('https://app.publora.com?utm_source=vscode&utm_medium=extension'));
     }
   } catch (error) {
     vscode.window.showErrorMessage(error.message);
